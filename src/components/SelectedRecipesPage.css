@@ -1,0 +1,27 @@
+/* Add this to your CSS file */
+
+.recipe-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    margin-bottom: 20px; /* Space between recipe containers */
+  }
+  
+  .recipe-container > * {
+    flex: 1; /* Allow children to grow equally */
+    margin-right: 10px; /* Space between items */
+  }
+  
+  /* Remove margin from the last child */
+  .recipe-container > :last-child {
+    margin-right: 0; /* No margin on the last child */
+  }
+  
+  /* Optional: Ensure components fit nicely */
+  .recipe-card {
+    max-width: 100%; /* Ensure the card doesn't overflow */
+  }
+  
+  .recipe-details {
+    max-width: 100%; /* Ensure details don't overflow */
+  }
+  

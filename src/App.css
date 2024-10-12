@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+ul { list-style: none; }
+
+/* App.css */
+
+header {
+  background-color: #333; /* Dark background for the header */
+  padding: 1rem; /* Padding around the header */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-around; /* Distribute links evenly */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav li {
+  margin: 0 1rem; /* Margin between each link */
+}
+
+nav a {
+  color: white; /* White text color for links */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #ff6347; /* Change color on hover (e.g., tomato color) */
+}
