@@ -5,7 +5,7 @@ import RecipeDetails from './RecipeDetails';
 import DebouncedSearch from './DebouncedSearch';
 import Pagination from './Pagination';
 import CategoryFilter from './CategoryFilter';
-import './SelectedRecipesPage.css';
+import '../css/SelectedRecipesPage.css';
 
 const SelectedRecipesPage: React.FC = () => {
   const [selectedRecipes, setSelectedRecipes] = useState<Recipe[]>([]);

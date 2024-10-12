@@ -1,0 +1,23 @@
+.recipe-container {
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-container > * {
+    flex: 1; 
+    margin-right: 10px; 
+  }
+  
+  .recipe-container > :last-child {
+    margin-right: 0; 
+  }
+
+  .recipe-card {
+    max-width: 100%;
+  }
+  
+  .recipe-details {
+    max-width: 100%;
+  }
+  

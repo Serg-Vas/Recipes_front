@@ -39,7 +39,8 @@ const RecipePage: React.FC = () => {
   return (
     <div>
       <h1>{recipe.strMeal}</h1>
-      <img src={recipe.strMealThumb} alt={recipe.strMeal} style={{ width: '300px' }} />
+      <img src={recipe.strMealThumb} alt={recipe.strMeal} style={{ width: '300px'}} />
+      <div><button onClick={handleSelectRecipe}>Add to Selected</button></div>
       <p><strong>Category:</strong> {recipe.strCategory}</p>
       <p><strong>Area:</strong> {recipe.strArea}</p>
       <p><strong>Instructions:</strong></p>
@@ -57,8 +58,6 @@ const RecipePage: React.FC = () => {
           <li>No ingredients available</li>
         )}
       </ul>
-
-      <button onClick={handleSelectRecipe}>Add to Selected</button>
 
       {recipe.strTags && (
         <div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './RecipePage.css'
+import '../css/RecipeCard.css'
 import { Link } from 'react-router-dom';
 
 interface RecipeCardProps {
