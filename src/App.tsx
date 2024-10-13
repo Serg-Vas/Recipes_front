@@ -12,6 +12,8 @@ function App() {
     <>
     <QueryClientProvider client={queryClient}>
     <Router>
+      <div>
+
       <header>
         <nav>
           <ul>
@@ -24,6 +26,7 @@ function App() {
           </ul>
         </nav>
       </header>
+      </div>
         <Routes>
           <Route path="/" element={<AllRecipesPage />} />
           <Route path="/recipe/:id" element={<RecipePage />} />

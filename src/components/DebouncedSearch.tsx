@@ -28,7 +28,7 @@ const DebouncedSearch: React.FC<DebouncedSearchProps> = ({ onSearch, delay = 600
         borderRadius: '4px',
         fontSize: '16px',
       }}
-      type="text"
+      type="search"
       placeholder="Search by name, category or country"
       value={query}
       onChange={(e) => setQuery(e.target.value)}
